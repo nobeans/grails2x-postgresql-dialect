@@ -12,8 +12,8 @@ class DomainA {
     }
 
     static mapping = {
-        infinite type: 'text'   //=> infinite: TEXT
+        //infinite type: 'text'   //=> infinite: TEXT
 
-        id generator: 'sequence', params: [sequence:'domain_a_id_seq']
+        //id generator: 'sequence', params: [sequence:'domain_a_id_seq']
     }
 }
